@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Leetcode Clone App',
 };
 
-/* Kiek supratau su next.js nenaudojam index.js ar app.js filai. layout.tsx 
+/* Kiek supratau su next.js nenaudojami index.js ar app.js filai. layout.tsx 
 https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating <- oficiali dokumentacija routinimo
 https://www.youtube.com/watch?v=wm5gMKuwSYk&t=63s 15:55 <- per kelias min isaiskina cia struktura
 https://www.youtube.com/watch?v=vuznUqirz5I&list=PL0Zuz27SZ-6Pk-QJIdGd1tGZEzy9RTgtj&index=2 <- paaiskina kaip veikia react routinimas
