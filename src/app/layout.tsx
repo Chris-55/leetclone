@@ -1,6 +1,9 @@
+'use client';
+
 import '../styles/globals.css';
 import { Inter } from 'next/font/google';
 import Navbar from './Navbar';
+import { useRouter } from 'next/navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,6 +24,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const router = useRouter();
   return (
     <html lang="en">
       <head>

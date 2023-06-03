@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 export default function Home() {
   return (
-    <main className=''>
+    <main className="">
       <div>page</div>
     </main>
   );
