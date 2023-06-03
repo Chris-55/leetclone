@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'LeetClone',
-  description: 'Leetcode Clone App',
+  description:
+    'Leetcode Clone App that contains leetcode problems and video solutions',
 };
 
 /* Kiek supratau su next.js nenaudojami index.js ar app.js filai. layout.tsx 
@@ -21,7 +22,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body className={inter.className}>
         <Navbar />
         {children}
