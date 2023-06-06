@@ -1,14 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-gray-500">
+    <nav className="bg-dark-layer-1">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center justify-center h-20">
-              <img src="/logo.png" alt="leetclone logo" className="h-full" />
+              <Image
+                src="/logo-full.png"
+                alt="leetclone logo"
+                height={100}
+                width={100}
+              />
             </Link>
           </div>
           <div className="flex justify-right gap-2">
